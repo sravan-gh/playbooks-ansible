@@ -11,7 +11,7 @@
   - name: deploy ecomm app
     git:
       dest: /var/www/html
-      repo: https://github.com/Akiranred/ecomm.git
+      repo: https://github.com/sravan-gh/ecomm.git
 
 
 - name: Update app servers
@@ -27,4 +27,4 @@
   - name: deploy food app
     git:
       dest: /var/www/html
-      repo: https://github.com/Akiranred/food.git
+      repo: https://github.com/sravan-gh/food.git
